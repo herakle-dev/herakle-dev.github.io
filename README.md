@@ -1,3 +1,3 @@
 # project-portfolio
-Personal public portfolio
-https://herakle-dev.github.io/portfolio-ivan-ferrigno/home.html
+Personal public portfolio by herakle
+https://herakle-dev.github.io/
