@@ -1,143 +1,150 @@
-
-  
-  @font-face {
+@font-face {
     font-family: graffiti;
     src: url(../font/a_attack_graffiti/aAttackGraffiti.otf);
   }
-*{ 
-    box-sizing:border-box;
+  * {
+    box-sizing: border-box;
     margin: 0;
     outline: none;
-}
-body{
+  }
+  
+  body {
     background-color: rgb(29, 39, 55);
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
-}
-.logo a{
+  }
+  
+  .logo a {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color:rgb(255, 255, 255);
-}
-.logo{
+    color: rgb(255, 255, 255);
+  }
+  
+  .logo {
     font-family: "graffiti";
     font-size: 55px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-.navbar{
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0; 
-    background-color: rgb(142 130 109);  
+  }
+  
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.navitem a  {
-    text-decoration: none;
-    padding: 15px;
-     color: rgb(0, 0, 0);
-     margin-left:20px;
-    }
-    .item{
-       font-family: "helvetica";
-       font-weight: 600;
-    }
-.contattami   {
-    text-decoration: none;
-    padding: 25px;
-     color: rgb(0, 0, 0);
-     margin-left:20px;
-     display: flex;
-     justify-content: flex-end;   
-     font-family: "helvetica";
-     font-weight: 600;
-}
-.navitem a:hover{
-   color:  rgb(255, 255, 255);
-}
-.navitem:hover{
-    color:  rgb(255, 255, 255);
- }
-.footer  {
+    width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
-    width: 100%;
-   
-    background-color: /*3, 81, 88*/rgb(142 130 109);
+    background-color: rgb(142, 130, 109);
+  }
+  
+  .navitem a {
+    text-decoration: none;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+  }
+  
+  .item {
+    font-family: helvetica;
+    font-weight: 600;
+  }
+  
+  .contattami {
+    text-decoration: none;
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: helvetica;
+    font-weight: 600;
+  }
+  
+  .navitem a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .navitem:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .footer {
     position: relative;
     bottom: 0;
-    width:100%;
+    width: 100%;
     height: auto;
-   }
-   .footer .diritti{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(142, 130, 109);
+  }
+  
+  .footer .diritti {
     display: flex;
     justify-content: center;
     align-items: center;
-   }
-   .social-ico {
+  }
+  
+  .social-ico {
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    margin: 10px;  
+    color: rgb(255, 255, 255);
+    margin: 10px;
   }
-   .bi:hover{
-     color:rgb(0, 0, 0) ;
-   }
-   .icon{
+  
+  .bi:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .icon {
     display: flex;
-    justify-content: space-evenly;  
-   }  
-   .container-fluid{
+    justify-content: space-evenly;
+  }
+  
+  .container-fluid {
     padding: 0;
-}
-
-.contact {
+  }
+  
+  .contact {
     display: flex;
     justify-content: flex-end;
     padding: 0;
-}
-#form {
+  }
+  
+  #form {
     margin: 0;
     padding: 15px;
-    background-color: rgb(142 130 109);
-    color:black;
+    background-color: rgb(142, 130, 109);
+    color: rgb(0, 0, 0);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     text-align: left;
-}
-.btn{
-    background-color:  rgb(29, 39, 55);
+  }
+  
+  .btn {
+    background-color: rgb(29, 39, 55);
     border: none;
-    color: white;
+    color: rgb(255, 255, 255);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     align-self: center;
     margin-top: 10px;
-}
-.btn:hover{
-   color: white;
-   background-color: rgb(55, 74, 104);
-}
- input:required {
- border: rgb(29, 39, 55) 1px solid;
   }
   
- input:required:invalid {
-    border-color:  red;
+  .btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: #374b69;
   }
-
-@media only screen and (max-width: 600px) and (min-width: 300px) 
-{
-.navitem {
-    display: flex;
-    justify-content: space-around;
-    }   
-}
-
+  input:required {
+    border: rgb(29, 39, 55) 1px solid;
+  }
+  
+  input:required:invalid {
+    border-color: red;
+  }/*# sourceMappingURL=general-style.css.map */

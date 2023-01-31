@@ -1,0 +1,79 @@
+@import url(colors.scss);
+.head {
+    margin-top: 150px;
+    margin-bottom: 75px;
+}
+.container{
+    margin-bottom: 400px;
+}
+.titolo {
+display: flex;
+justify-content: center;
+font-weight: bold;
+}
+
+.my-skill-list{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+img{  
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+ 
+}
+li{ 
+    
+ margin: 10px;
+ list-style-type: none;
+ border: 1px solid $secondary-color;
+ border-radius: 10%;
+}
+.soft{
+    height: 600px;
+    width: 400px;
+}
+li h4{
+    text-align: center;
+}
+li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li p {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+.card-body {
+    background-color: $primary-color;
+}
+
+.Skill {
+   background-color:  $secondary-color;
+   border:none;
+ margin-right: 25px;
+ margin-bottom: 50px;
+ border-radius: 15px;
+ padding: 15px 32px;
+ color:$primary-text-color;
+
+}
+.Skill:hover{
+    background-color:  lighten($secondary-color, 10%);
+    color: $secondary-text-color;
+}
+.disabled {
+    pointer-events:none;
+    opacity:0.2;   
+    user-select: none;
+}
+.Skill:active
+{
+    background-color:  darken($secondary-color, 8%);
+    color:$primary-text-color;
+}

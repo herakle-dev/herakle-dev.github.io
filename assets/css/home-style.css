@@ -1,29 +1,28 @@
-   body{
-    background-color: rgb(29, 39, 55);
-    color: white;
-   }
+.content {
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
 
-   .content{
-    margin-top: 150px;
-    margin-bottom: 200px;
-       }
-    .foto { 
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-    }
-    img {
-        border-radius: 5%;
-    }
-    h2 {
-        font-size: 80px;
-    }
-    p {
-      
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-    }
- article{
-        margin-top: 50px;
-    }
+.foto {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+img {
+  border-radius: 5%;
+}
+
+h2 {
+  font-size: 80px;
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+article {
+  margin-top: 50px;
+}/*# sourceMappingURL=home-style.css.map */

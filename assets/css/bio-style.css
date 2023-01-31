@@ -1,56 +1,49 @@
-body{
-  background-color: rgb(29, 39, 55);
-  background-size:auto;
-  background-repeat:repeat-x;
-  background-position:bottom;
-  width: 100%;
-  color: white;
+.main {
+  margin-top: 100px;
 }
-.main{
-  margin-top: 100px; 
-}
+
 .image {
   margin-top: 80px;
-  max-width:100%;
-max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
 }
+
 .image1 {
-  max-width:100%;
-max-height:100%;
-margin-top:100px;
-
-}
-.primo{
-  font-size:20px;
-  margin-top:50px;
-    
-}
-
-.intestazione
-{
+  max-width: 100%;
+  max-height: 100%;
   margin-top: 100px;
-  font-size:55px;
-  font-style: normal;
-  text-align: center;
- 
 }
-h2{
+
+.primo {
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.intestazione {
+  margin-top: 100px;
+  font-size: 55px;
+  text-align: center;
+}
+
+h2 {
   font-size: 60px;
   margin-top: 100px;
   text-align: center;
 }
+
 .bio {
   text-align: left;
 }
-.chisono{
-  font-size:55px;
-  font-style: normal;
-}
-.base {
-  margin-top: 350px;
-  color: rgb(255, 255, 255);
-}
-.parte-2{
-  margin-top: 100px;
+
+.chisono {
+  font-size: 55px;
+  text-align: left;
 }
 
+.base {
+  margin-top: 350px;
+}
+
+.parte-2 {
+  margin-top: 100px;
+}/*# sourceMappingURL=bio-style.css.map */

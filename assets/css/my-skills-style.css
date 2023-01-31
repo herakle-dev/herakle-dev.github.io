@@ -1,84 +1,89 @@
-body{
-    color: white;
-}
 .head {
-    margin-top: 150px;
+  margin-top: 150px;
+  margin-bottom: 75px;
 }
-.container{
-    margin-bottom: 450px;
+
+.container {
+  margin-bottom: 400px;
 }
+
 .titolo {
-    display: flex;
-justify-content: center;
-font-style:normal;
-font-weight: bold;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
 }
 
-.my-skill-list{
-padding-left: 30px;
-padding-right: 30px;
-    margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-
+.my-skill-list {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
-img{
-    
-    margin: 10px;
-    width: 150px;
-    height: 150px;
- 
+img {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
 }
-li{ 
-    
- margin: 10px;
- list-style-type: none;
- border: 10px solid rgb(142 130 109);
- border-radius: 10%;
+
+li {
+  margin: 10px;
+  list-style-type: none;
+  border: 1px solid rgb(142, 130, 109);
+  border-radius: 10%;
 }
-.soft{
-    height: 600px;
-    width: 400px;
+
+.soft {
+  height: 600px;
+  width: 400px;
 }
-li h4{
-    text-align: center;
+
+li h4 {
+  text-align: center;
 }
+
 li a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 li p {
-    text-align: left;
-    justify-content: center;
-    align-items: center;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
 }
+
 .card-body {
-    background-color: rgb(29, 39, 55);
+  background-color: rgb(29, 39, 55);
 }
 
 .Skill {
-   background-color:  rgb(142 130 109);
-   border:none;
- margin-right: 25px;
- margin-bottom: 50px;
- border-radius: 15px;
- padding: 15px 32px;
- color:white;
+  background-color: rgb(142, 130, 109);
+  border: none;
+  margin-right: 25px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  padding: 15px 32px;
+  color: rgb(255, 255, 255);
+}
 
+.Skill:hover {
+  background-color: #a59b89;
+  color: rgb(0, 0, 0);
 }
-.Skill:hover{
-    background-color:  rgb(94, 80, 57);
-}
+
 .disabled {
-    pointer-events:none;
-    opacity:0.2;   
-    user-select: none;
+  pointer-events: none;
+  opacity: 0.2;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
-.Skill:active
-{
-    background-color:  rgb(247, 164, 11);
-    color:black;
-    
-}
+
+.Skill:active {
+  background-color: #776d5b;
+  color: rgb(255, 255, 255);
+}/*# sourceMappingURL=my-skills-style.css.map */

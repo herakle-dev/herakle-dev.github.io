@@ -1,0 +1,153 @@
+@import url(colors.scss);
+@mixin logo-link-a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color:$primary-text-color;
+}
+@mixin logo-text {
+    font-family: "graffiti";
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@mixin standard-bar{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0; 
+    background-color: $secondary-color;
+}
+@mixin navbar-style{  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin navbar-item-link-style {
+    text-decoration: none;
+    padding: 15px;
+     color:$secondary-text-color;
+     margin-left:20px;
+}
+@mixin navbar-item {
+    font-family: $standard-font;
+    font-weight: 600;
+}
+@mixin navbar-item-contattami-style{
+     text-decoration: none;
+     padding: 25px;
+     color: $secondary-text-color;
+     margin-left:20px;
+     display: flex;
+     justify-content: flex-end;   
+     font-family: $standard-font;
+     font-weight: 600;
+}
+@mixin footer-style {
+    position: relative;
+    bottom: 0;   
+}
+@mixin form-style {
+    margin: 0;
+    padding: 15px;
+    background-color: $secondary-color;
+    color:$secondary-text-color;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+@font-face {
+    font-family: graffiti;
+    src: url(../font/a_attack_graffiti/aAttackGraffiti.otf);
+  }
+*{ 
+    box-sizing:border-box;
+    margin: 0;
+    outline: none;
+}
+body{
+    background-color: $primary-color;
+    color: $primary-text-color;
+    font-size: $standard-font-size;
+}
+ .logo a{
+ @include logo-link-a;
+}
+.logo{
+   @include logo-text;
+}
+.navbar{
+   @include navbar-style;
+   @include standard-bar;
+}
+.navitem a  {
+   @include navbar-item-link-style;
+    }
+    .item{
+      @include navbar-item;
+    }
+.contattami   {
+  @include navbar-item-contattami-style;
+}
+.navitem a:hover{
+   color:  $primary-text-color;
+}
+.navitem:hover{
+    color:  $primary-text-color;
+ }
+.footer  {
+  @include footer-style;
+  @include standard-bar;
+   }
+   .footer .diritti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .social-ico {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $primary-text-color;
+    margin: 10px;  
+  }
+   .bi:hover{
+     color:$secondary-text-color ;
+   }
+   .icon{
+    display: flex;
+    justify-content: space-evenly;  
+   }  
+   .container-fluid{
+    padding: 0;
+}
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+#form {
+    @include form-style;
+}
+.btn{
+    background-color:  $primary-color;
+    border: none;
+    color: $primary-text-color;
+    width: fit-content;
+    align-self: center;
+    margin-top: 10px;
+}
+.btn:hover{
+   color: $primary-text-color;
+   background-color: lighten($primary-color, 15%)
+}
+ input:required {
+ border: $primary-color 1px solid;
+  }
+ input:required:invalid {
+    border: 1px solid red;
+  }
+
