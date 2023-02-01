@@ -56,7 +56,7 @@
     text-decoration: none;
     padding: 25px;
     color: rgb(0, 0, 0);
-    margin-left: 20px;
+    
     display: flex;
     justify-content: flex-end;
     font-family: helvetica;
@@ -147,4 +147,13 @@
   
   input:required:invalid {
     border-color: red;
-  }/*# sourceMappingURL=general-style.css.map */
+  }
+  @media only screen and (max-width: 600px) and (min-width: 300px) 
+{
+
+  
+.navitem {
+    display: flex;
+    justify-content: space-around;
+    }   
+}/*# sourceMappingURL=general-style.css.map */
