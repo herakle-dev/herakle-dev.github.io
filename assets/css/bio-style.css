@@ -1,3 +1,11 @@
+body{
+  background-color: rgb(29, 39, 55);
+  background-size:auto;
+  background-repeat:repeat-x;
+  background-position:bottom;
+  width: 100%;
+  color: white;
+}
 .main {
   margin-top: 100px;
 }
